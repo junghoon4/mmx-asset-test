@@ -53,8 +53,7 @@ parameter:
     description: debug dates
     required: true
     default_value: 2010-10-10T16:09:00Z
-entry:
-  value: [modeling_script_name]
+entry: [modeling_script_name]
 environment:
   - key: test_env1
     value: test_value1
