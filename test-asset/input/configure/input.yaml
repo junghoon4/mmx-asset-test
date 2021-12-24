@@ -53,6 +53,10 @@ parameter:
     description: debug dates
     required: true
     default_value: 2010-10-10T16:09:00Z
+  - name: date
+    description: "End Date (current : ${sysdate('$0s@0s')} / specific date : 2021-12-15T18:40:00)"
+    required: true
+    defalut_value: "${sysdate('$0s@0s')}"
 entry: modeling_script_name
 environment:
   - key: test_env1
@@ -65,3 +69,4 @@ environment:
   - key: is_masking2
     value: is_masking2
     is_masking: hahaha
+
