@@ -19,6 +19,7 @@ parameter:
     description: data delay
     required: true
     default_value: 530
+    visible: false
   - name: time_column
     description: time column
     required: true
@@ -30,6 +31,7 @@ parameter:
       - ad
       - xai
     default_value: ad
+    visible: false
   - name: x_columns
     description: x col
     required: true
@@ -38,6 +40,7 @@ parameter:
     description: y col
     required: true
     default_value: none
+    visible: false
   - name: ignore_columns
     description: ignore col
     required: true
